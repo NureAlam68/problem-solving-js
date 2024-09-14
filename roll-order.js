@@ -3,5 +3,8 @@
 
 
 function orderOfNumbers(numbers) {
-    let 
+    let orderNumbers = numbers.sort(function (a , b) {return a - b});
+    return orderNumbers;
 }
+let numbers = [23, 24, 56, 78, 55, 19, 90, 12, 11, 7, 10, 1, 21, 112];
+console.log(orderOfNumbers(numbers));
