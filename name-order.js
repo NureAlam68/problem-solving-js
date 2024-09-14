@@ -2,8 +2,8 @@
 
 
 function orderOfNames(names) {
-    let name = names.sort();
-    return name;
+    let orderNames = names.sort();
+    return orderNames;
 }
 let names = ['Sohag', 'Nure Alam', 'Nihal', 'Jui','Dapne'];
 console.log(orderOfNames(names));
